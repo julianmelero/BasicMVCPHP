@@ -1,0 +1,19 @@
+{
+    "name": "julianmelerohidalgo/basemvc",
+    "description": "Basic MVC",
+    "authors": [
+        {
+            "name": "Julián Melero Hidalgo",
+            "email": "hola@julianmelero.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
